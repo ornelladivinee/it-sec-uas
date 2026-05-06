@@ -1,5 +1,5 @@
 
-# 🔐 IT Security Exercises – UAS FRA
+# IT Security Exercises – UAS FRA
 
 This repository contains implementations of classical cryptographic algorithms developed as part of an IT Security course at UAS Frankfurt.
 
@@ -7,7 +7,7 @@ The goal of this project is to understand fundamental concepts of symmetric cryp
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 
 it-sec-uas/
@@ -23,7 +23,7 @@ it-sec-uas/
 
 ---
 
-## 🧠 Implemented Ciphers
+## Implemented Ciphers
 
 ### 1. Caesar Cipher
 - Simple substitution cipher
@@ -39,7 +39,7 @@ it-sec-uas/
 
 ---
 
-## ⚙️ Features
+## Features
 
 - Interactive command-line interface (CLI)
 - Input validation (error handling for invalid keys/options)
@@ -49,22 +49,27 @@ it-sec-uas/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### Caesar Cipher
 ```bash
 cd caesar_cipher
 python3 caesar_cipher.py
+
+### Vigenère Cipher
+```bash
 Vigenère Cipher
 cd vigenere_cipher
 python3 vigenere_cipher.py
-📚 Learning Objectives
+
+Learning Objectives
 Understanding classical encryption techniques
 Implementing symmetric cryptography
 Practicing secure coding principles
 Handling user input safely
 Working with CLI-based tools
-👩‍💻 Author
 
-Ornella Mesina
+
+👩‍💻 Author
+Ornella Mesina.
 IT Security Student – UAS Frankfurt
