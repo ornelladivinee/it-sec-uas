@@ -1,4 +1,39 @@
 
+Caesar Cipher:
+toma un texto
+lo “mueve” en el alfabeto
+ejemplo:
+hello → khoor
+Idea:
+Cada letra se desplaza un número fijo (key).
+
+Vigenère Cipher:
+en vez de número, usas una palabra clave
+ejemplo:
+hello + security → texto cifrado distinto por letra
+Idea:
+Cada letra del texto se mueve diferente según la clave.
+
+LÓGICA REAL DE SOFTWARE
+Menús
+1. Encrypt
+2. Decrypt
+interfaz de usuario básica (CLI)
+
+Bucles
+el programa no se cierra
+puedes usarlo varias veces
+
+Control de errores
+Ejemplo:
+
+try:
+    key = int(input())
+except:
+
+evita que el programa se caiga si el usuario escribe mal
+
+
 # IT Security Exercises – UAS FRA
 
 This repository contains implementations of classical cryptographic algorithms developed as part of an IT Security course at UAS Frankfurt.
